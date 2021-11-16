@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta Teste</title>
+</head>
+<body>
+<table border="1" cellpadding="5" cellspacing="5">
+    {% for row in results %}
+        {% for d in row %}
+            <div>{{ d }}</div>
+        {% endfor %}
+    {% endfor %}
+</table>
+   <h1>results</h1>
+</body>
+</html>
