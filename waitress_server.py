@@ -1,3 +1,4 @@
 from waitress import serve
-import mywebdb
-serve(mywebdb.app, host='0.0.0.0', port=5000)
+import b3 
+print("URL: http://techslave.com.br:5100")
+serve(b3.app, host='0.0.0.0', port=5100)
